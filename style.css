@@ -1,0 +1,247 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.25)),url(image/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul{
+    list-style-type:none;
+    margin:0;
+    padding: 0;
+    background-color:red;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; 
+    font-size: 25px;
+}
+li a:hover:not(.symbol) {
+    background-color: black;
+}
+.active {
+  background-color: darkred;
+}
+.symbol{
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;   
+    text-indent: 2px;
+    letter-spacing: 2px;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px white;
+    font-family:sans-serif;
+    font-weight: 500;
+}
+
+.text{
+    margin: 300px auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 60%; 
+    color: lightcyan;
+    text-transform: uppercase;
+    word-spacing: 10px;
+    font-size:18px;
+}
+
+.button1 {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: black;
+  border: none;
+  border-radius: 15px;
+  text-transform: capitalize;
+}
+
+.button1:hover {background-color: red;}
+
+.button2 {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: black;
+  border: none;
+  border-radius: 15px;
+  text-transform: capitalize;
+}
+
+.button2:hover {background-color: red;}
+
+.text2{
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 200%;
+    text-align: center;
+    width: 60%; 
+    color:lightyellow;
+    text-transform: uppercase;
+}
+
+.section-meals {
+    padding: 0;
+}
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.photo img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
+
+input[type=text],input[type=password],input[type=email], select, textarea {
+  width: 85%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit],input[type=reset]{
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+  margin-right: 10px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+input[type=reset]:hover {
+  background-color: #45a049;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+    background-color: #242121;
+    padding: 50px;
+    font-size: 80%;
+}
+
+.footer-nav {
+    list-style: none;
+    text-align: center;
+    float: right;
+}
+
+.footer-nav li,
+.symbol2 li{
+    display: inline-block;
+    margin-right: 0px;
+}
+
+.footer-nav li:last-child,
+.symbol2 li:last-child{
+    margin-right: 0;
+}
+
+.symbol2{
+    font-size: 25px;
+    background-color:#242121;
+    color: #9a9797;
+    text-transform: uppercase;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+    background-color: #242121;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd;
+}
+
+footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.style2
+{
+    
+}
+

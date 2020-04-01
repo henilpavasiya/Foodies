@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            body{
+                background-image: url(image/img2.jpg);
+                background-repeat: no-repeat;
+                background-size:cover;
+                }
+        </style>
+    </head>
+    <body>
+        <div id="SignUp">
+          <form action="registration.php" method="post" style="padding-top: 50px;">
+              <fieldset>
+                  <legend style="font-size: 25px;text-align: center;font-style:oblique;text-shadow: 1.8px 1.8px white;cursor: pointer;"> <b> Sign In </b> </legend>
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="fname" style="color: white;font-size: 18px;text-shadow: 3px 3px black;">First Name</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="text" id="fname" name="name" placeholder="Your name..">
+                    </div>
+                  </div>
+                  
+                   <div class="row">
+                    <div class="col-25">
+                      <label for="email" style="color: white;font-size: 18px;text-shadow: 3px 3px black;">Email-id</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="email" id="email" name="email-id" placeholder="Your email-id..">
+                    </div>
+                  </div>
+                  
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="pswd" style="color: white;font-size: 18px;text-shadow: 3px 3px black;">Password</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="password" id="pswd" name="password" placeholder="Your password">
+                    </div>
+                  </div>
+                  
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="country" style="color: white;font-size: 18px;text-shadow: 3px 3px black;">City</label>
+                    </div>
+                    <div class="col-75">
+                      <select id="City" name="city">
+                        <option value="Surat">Surat</option>
+                        <option value="Vadodra">Vadodra</option>
+                        <option value="Ahemdabad">Ahemdabad</option>
+                      </select>
+                    </div>
+                  </div>
+                  
+                  <div class="row">
+                    <input type="submit" value="Submit" style="background-color: blue;">
+                    <input type="reset" value="Reset" style="background-color: blue;">
+                  </div>
+              </fieldset>
+            </form>
+              <br>
+             <span style="font-size: 20px;padding: 1px 745px;text-shadow: 1.8px 1.8px white;">Or</span>
+              <br><br>
+        <div class="container">
+            <form action="validation.php" method="post">
+                <fieldset>
+                  <legend style="font-size: 25px;text-align: center;font-style:oblique;text-shadow: 1.8px 1.8px white;"> <b> Login In </b> </legend>
+                  
+                   <div class="row">
+                    <div class="col-25">
+                      <label for="email" style="color: white;font-size: 18px;text-shadow: 3px 3px black;">Email-id</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="email" id="email" name="email-id" placeholder="Your email-id..">
+                    </div>
+                  </div>
+                  
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="pswd" style="color: white;font-size: 18px;text-shadow: 3px 3px black;">Password</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="password" id="pswd" name="password" placeholder="Your password">
+                    </div>
+                  </div>
+                  
+                  <div class="row">
+                    <input type="submit" value="Login" style="background-color: blue;">
+                  </div>
+              </fieldset>
+            </form>
+        </div>
+    </div>
+   </body>
+</html>
