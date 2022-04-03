@@ -1,9 +1,9 @@
 # Foodies
-Food order website
+A Food order website where you order your food
 
-#What I learned
-HTML
-CSS
-PHP
-JAVASCRIPT
-TRANSITION OF IMAGE
+# What I LEARNED
+* HTML
+* CSS
+* PHP
+* JAVASCRIPT
+* TRANSITION OF IMAGE
